@@ -1,0 +1,185 @@
+/* Newsreader font */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap');
+
+* {
+  font-family:'Newsreader', serif;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 17px;
+}
+
+a {
+  color: #000000;
+}
+
+img {
+  width:45em;
+}
+
+header {
+  margin: 50px;
+  margin-bottom: 150px;
+  display:flex;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.subtitle {
+  margin-left: 25px;
+  margin-top:10px;
+  border-bottom:5px solid #B2DBF5;
+}
+
+.cover-content {
+  width: 60%;
+  margin: auto;
+  padding: 0 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pages {
+  width:45%;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom:165px;
+  text-decoration: underline;
+}
+
+.pages-cover {
+  width:45em;
+  margin-top:50px;
+  margin-bottom:165px;
+  text-decoration: underline;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:end;
+}
+
+.pages-end {
+  width:50em;
+  margin-top:50px;
+  margin-bottom:165px;
+  text-decoration: underline;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:start;
+}
+
+.previous {
+  float:left;
+}
+
+.next {
+  float:right;
+}
+
+.page a:hover {
+  color:#B2DBF5;
+}
+
+.title-pages {
+  margin:auto;
+  width:45%;
+}
+
+.indent {
+  text-indent: 30px;
+  margin:auto;
+  margin-bottom:50px;
+  position:relative;
+}
+
+.indent p {
+  line-height: 1.5;
+}
+
+.nonindent {
+  text-indent:0px;
+}
+
+.content-bio {
+  margin: auto;
+  line-height:2;
+}
+
+.title {
+  display:flex;
+  margin-bottom:25px;
+}
+
+.bio {
+  line-height:1.2;
+}
+
+.photo {
+  width: 45%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 0 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+audio {
+  margin: auto;
+  margin-bottom: 20px;
+  display:block;
+  border:3px solid #ffb36b;
+  border-radius: 30px;
+}
+
+.lyrics {
+  line-height:1.2;
+  margin-bottom:50px;
+}
+
+li {
+  margin-left:50px;
+  text-indent: 0px;
+  line-height:1.5;
+}
+
+.indent a {
+  text-decoration: none;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+
+.stars {
+  position:absolute;
+  width:2em;
+  top:80px;
+  left: 30px;
+}
+
+.hearts {
+  position:absolute;
+  width:1.75em;
+  top:24px;
+  left:500px;
+}
+
+.laundry {
+  position:absolute;
+  width:25em;
+  bottom:0px;
+}
