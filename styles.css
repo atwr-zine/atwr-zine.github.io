@@ -179,7 +179,8 @@ li {
 }
 
 .laundry {
-  position:absolute;
-  width:25em;
-  bottom:0px;
+  position: fixed;
+  width: 25em;
+  bottom: 0px;
+  z-index: -1;
 }
