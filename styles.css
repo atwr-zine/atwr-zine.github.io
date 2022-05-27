@@ -145,6 +145,10 @@ li {
   line-height:1.5;
 }
 
+.linebreak p {
+  margin-bottom:10px;
+}
+
 .indent a {
   text-decoration: none;
 }
