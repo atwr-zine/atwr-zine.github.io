@@ -168,6 +168,36 @@ li {
   z-index: -1;
 }
 
+.pr {
+  display:flex;
+  flex-direction: row;
+}
+
+.grid img {
+  display:flex;
+  width:15em;
+  margin:1em 2.5em 1em 0em;
+}
+
+.rightshift img {
+  margin-left:2.5em;
+  margin-right:0em;
+}
+
+.grid p {
+  display:flex;
+  width:30%;
+  margin:auto;
+  text-align: center;
+}
+
+.priya-paragraph {
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+  width:17.5em;
+}
+
 /*mobile*/
 @media only screen and (max-width:399px) {
   header {
@@ -201,9 +231,23 @@ li {
   .laundry {
     width:60%;
   }
+  .grid img {
+    display:flex;
+    width:10em;
+    margin:1em 1.5em 1em 0em;
+  }
+  .rightshift img {
+    margin-left:1.5em;
+    margin-right:0em;
+  }
+  .priya-paragraph p {
+    font-size:12px;
+    line-height:1.2;
+    width:100%;
+  }
 }
 
-@media only screen and (min-width:400px) (max-width:600px) {
+@media only screen and (min-width:400px) and (max-width:600px) {
   header {
     margin: 40px;
     margin-bottom:60px;
@@ -234,9 +278,23 @@ li {
   .laundry {
     width:60%;
   }
+  .grid img {
+    display:flex;
+    width:11em;
+    margin:1em 1.5em 1em 0em;
+  }
+  .rightshift img {
+    margin-left:1.5em;
+    margin-right:0em;
+  }
+  .priya-paragraph p {
+    font-size:12px;
+    line-height:1.2;
+    width:100%;
+  }
 }
 
-@media only screen and (min-width:501px) and (max-width:1000px) {
+@media only screen and (min-width:601px) and (max-width:1000px) {
   .title-pages {
     width:65%;
   }
